@@ -6,6 +6,14 @@ A empresa solicitou uma aplicação de previsão do tempo para que usuários pos
 
 O briefing descreve o objetivo e as capacidades principais, mas ainda não define detalhes de interação, fontes de dados, localização das cidades, conteúdo da previsão ou critérios de qualidade mensuráveis. Esses pontos devem ser esclarecidos antes da especificação detalhada e do planejamento técnico.
 
+## Personas
+
+As personas abaixo são hipóteses para orientar a especificação e devem ser validadas com usuários representativos.
+
+- **Marina — pessoa que se desloca diariamente:** quer saber se as condições do dia afetam seu trajeto. Usa principalmente o celular antes de sair ou durante o deslocamento. **Métrica de sucesso:** tempo necessário para encontrar a cidade correta e entender o clima atual, sem selecionar uma localidade errada.
+- **Rafael — pessoa que planeja uma viagem:** quer consultar o clima do destino para organizar atividades e o que levar. Usa o celular em consultas rápidas e pode usar desktop ao planejar. **Métrica de sucesso:** conseguir consultar e interpretar a previsão dos cinco dias do destino em uma única tarefa.
+- **Joana — profissional que trabalha ao ar livre:** quer verificar as condições locais e saber se os dados são recentes. Usa principalmente o celular em campo, possivelmente com conexão instável. **Métrica de sucesso:** conseguir identificar a atualidade dos dados e entender quando a consulta falha ou não pode ser atualizada.
+
 ## Decisões
 
 - **Fonte de dados — Open-Meteo, sem API key.** A escolha atende à necessidade de dados meteorológicos sem exigir uma chave de API para o app. Resolve a pergunta sobre qual fonte será usada; cobertura, frequência de atualização e termos aplicáveis ainda precisam ser verificados.
